@@ -7,7 +7,9 @@ buildscript {
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.2"
 
-        /////////////////
+        ///[FIX#jitpack#jcenter废弃#Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.]
+        ///https://www.shangmayuan.com/a/12c08d0e68c3421cb2d547ee.html
+///https://stackoverflow.com/questions/67599438/gradle-7-and-jitpack-io-runs-into-error-during-publish
 //        classpath 'com.github.dcendents:android-maven-plugin:1.2'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
 
@@ -24,7 +26,7 @@ allprojects {
 //        maven {
 //            url 'https://oss.sonatype.org/content/repositories/snapshots/'
 //        }
-//        jcenter()   //////??????Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories. This repository is deprecated and it will be shut down in the future
+//        jcenter()   //////??????Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
 
 //        //////??????TODO: Remove jcenter() once available in Maven Central.
 //        jcenter() {

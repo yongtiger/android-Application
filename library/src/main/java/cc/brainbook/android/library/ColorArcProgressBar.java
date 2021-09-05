@@ -123,9 +123,6 @@ public class ColorArcProgressBar extends View {
             canvas.drawText(mTitle, mCenterX, mCenterY - 2 * mProgressTextSize / 3, mTitlePaint);
         }
 
-
-
-
         //Subtitle
         if (isNeedSubtitle) {
             canvas.drawText(mSubtitle, mCenterX, mCenterY + 2 * mProgressTextSize / 3, mSubtitlePaint);
